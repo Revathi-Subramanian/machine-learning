@@ -1,6 +1,6 @@
 # Machine Learning Portfolio
 
-This repository serves as a collection of personal Machine Learning projects, focusing on applications in Deep Learning, Computer Vision, object detection and Recommender Systems.
+This repository serves as a collection of personal Machine Learning projects, focusing on applications in traditional classification, Regression, and advanced applications in Deep Learning, Computer Vision, object detection, Recommender Systems.
 
 ---
 
@@ -10,7 +10,7 @@ This repository serves as a collection of personal Machine Learning projects, fo
 | :--- | :--- | :--- | :--- | :--- |
 | **Tourism Structure Prediction** | [`deep-learning/classification`](deep-learning/classification/notebook/) | CV Classification | EfficientNetB0, ResNet50, EDA | Complete |
 | **Tourism Recommendation System** | [`recommendation-systems/notebook`](recommendation-systems/notebook/) | Recommendation Engine | Collaborative Filtering, EDA | Complete |
-
+| **Attrition Prediction System** | [`classification/notebook`](classification/notebook/) | Employee Turover Analysis | EDA,Clustering,SMOTE,GridSearchCV | Complete |
 ---
 machine-learning/
 ├── deep-learning/
@@ -20,7 +20,9 @@ machine-learning/
 └── recommendation-systems/
     └── notebook/
         └── Indonesia_Tourism_Recommendation_System.ipynb  (Part 2)
-
+└── classification/
+│       └── notebook/
+│           └── HRD_Emp_Turnover_Analysis.ipynb  (Attrition Prediction)
         
 ## Tourism Structure Prediction & Recommendation Engine
 
