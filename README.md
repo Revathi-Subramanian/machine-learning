@@ -45,6 +45,15 @@ Develops a system to provide personalized travel suggestions based on user ratin
 * **Insights:** Identified user demographics, top-rated categories, and the best city for nature tourism (**Bandung**).
 * **Evaluation:** Assessed performance using **Precision@k** and **Recall@k**.
 
+### 3. Employee Attrition Prediction :
+Portobello Tech is an app innovator company that devised an intelligent way of predicting employee turnover within the company. It periodically evaluates employees' work details, including the number of projects they worked on, average monthly working hours, time spent in the company, promotions in the last five years, and salary level.
+
+Data from prior evaluations shows the employees’ satisfaction in the workplace. The data could be used to identify patterns in work style and their interest in continuing to work for the company. 
+
+The HR Department owns the data and uses it to predict employee turnover. Employee turnover refers to the total number of workers who leave a company over time.
+* **Models:** Implemented classification by evaluating against **Linear Regression, Gradient Boost , Random Forest classifier** models and choosing Gradient Boost as the best model for this use case.
+* **Insights:** performed clustering to identify relationship between satisfaction level and evaluation with silhoutte score of 0.8, applied SMOTE to address class imbalance in left vs stayed
+* **Evaluation:** Assessed performance using **confusionmatrix** and **AUC score and accuracy score**.
 ---
 
 ## Setup and Technologies
